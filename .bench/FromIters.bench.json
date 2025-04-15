@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "moc": "0.14.5",
+  "replica": "dfx",
+  "replicaVersion": "0.26.0",
+  "gc": "copying",
+  "forceGc": true,
+  "results": [
+    [
+      "Array.fromIter:100",
+      {
+        "rts_stable_memory_size": 0,
+        "stable_memory_size": 0,
+        "instructions": 53373,
+        "rts_memory_size": 0,
+        "rts_total_allocation": 3096,
+        "rts_collector_instructions": 6627,
+        "rts_mutator_instructions": -10283,
+        "rts_logical_stable_memory_size": 0,
+        "rts_heap_size": 272,
+        "rts_reclaimed": 2824
+      }
+    ],
+    [
+      "Array.fromIter:10_000",
+      {
+        "rts_stable_memory_size": 0,
+        "stable_memory_size": 0,
+        "instructions": 5152334,
+        "rts_memory_size": 0,
+        "rts_total_allocation": 240696,
+        "rts_collector_instructions": 6638,
+        "rts_mutator_instructions": -7896,
+        "rts_logical_stable_memory_size": 0,
+        "rts_heap_size": 272,
+        "rts_reclaimed": 240424
+      }
+    ],
+    [
+      "Array.fromIter:100_000",
+      {
+        "rts_stable_memory_size": 0,
+        "stable_memory_size": 0,
+        "instructions": 51503949,
+        "rts_memory_size": 0,
+        "rts_total_allocation": 2400696,
+        "rts_collector_instructions": 6638,
+        "rts_mutator_instructions": -7896,
+        "rts_logical_stable_memory_size": 0,
+        "rts_heap_size": 272,
+        "rts_reclaimed": 2400424
+      }
+    ],
+    [
+      "List.fromIter:100",
+      {
+        "rts_stable_memory_size": 0,
+        "stable_memory_size": 0,
+        "instructions": 35436,
+        "rts_memory_size": 0,
+        "rts_total_allocation": 3864,
+        "rts_collector_instructions": 6627,
+        "rts_mutator_instructions": -7896,
+        "rts_logical_stable_memory_size": 0,
+        "rts_heap_size": 272,
+        "rts_reclaimed": 3592
+      }
+    ],
+    [
+      "List.fromIter:10_000",
+      {
+        "rts_stable_memory_size": 0,
+        "stable_memory_size": 0,
+        "instructions": 3421823,
+        "rts_memory_size": 0,
+        "rts_total_allocation": 320664,
+        "rts_collector_instructions": 6638,
+        "rts_mutator_instructions": -7896,
+        "rts_logical_stable_memory_size": 0,
+        "rts_heap_size": 272,
+        "rts_reclaimed": 320392
+      }
+    ],
+    [
+      "List.fromIter:100_000",
+      {
+        "rts_stable_memory_size": 0,
+        "stable_memory_size": 0,
+        "instructions": 34204824,
+        "rts_memory_size": 0,
+        "rts_total_allocation": 3200664,
+        "rts_collector_instructions": 6638,
+        "rts_mutator_instructions": -7896,
+        "rts_logical_stable_memory_size": 0,
+        "rts_heap_size": 272,
+        "rts_reclaimed": 3200392
+      }
+    ],
+    [
+      "List.fromIter . Iter.reverse:100",
+      {
+        "rts_stable_memory_size": 0,
+        "stable_memory_size": 0,
+        "instructions": 56149,
+        "rts_memory_size": 0,
+        "rts_total_allocation": 5504,
+        "rts_collector_instructions": 6627,
+        "rts_mutator_instructions": -7896,
+        "rts_logical_stable_memory_size": 0,
+        "rts_heap_size": 272,
+        "rts_reclaimed": 5232
+      }
+    ],
+    [
+      "List.fromIter . Iter.reverse:10_000",
+      {
+        "rts_stable_memory_size": 0,
+        "stable_memory_size": 0,
+        "instructions": 5392962,
+        "rts_memory_size": 0,
+        "rts_total_allocation": 480704,
+        "rts_collector_instructions": 6638,
+        "rts_mutator_instructions": -7896,
+        "rts_logical_stable_memory_size": 0,
+        "rts_heap_size": 272,
+        "rts_reclaimed": 480432
+      }
+    ],
+    [
+      "List.fromIter . Iter.reverse:100_000",
+      {
+        "rts_stable_memory_size": 0,
+        "stable_memory_size": 0,
+        "instructions": 53907349,
+        "rts_memory_size": 0,
+        "rts_total_allocation": 4800704,
+        "rts_collector_instructions": 6638,
+        "rts_mutator_instructions": -7896,
+        "rts_logical_stable_memory_size": 0,
+        "rts_heap_size": 272,
+        "rts_reclaimed": 4800432
+      }
+    ]
+  ]
+}
